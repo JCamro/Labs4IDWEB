@@ -1,0 +1,155 @@
+<!-- Declaración del tipo de documento HTML -->
+<!DOCTYPE html>
+<!-- Inicio del documento HTML, idioma inglés -->
+<html lang="en">
+<head>
+    <!-- Metadatos y configuración de la página -->
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptación a dispositivos móviles -->
+    <title>Document</title> <!-- Título de la pestaña -->
+</head>
+<body>
+    <!-- Título principal de la página -->
+     <header>
+        <h1>Bienvenido a mi Pagina</h1>
+        <nav>
+            <ul>
+
+                <li> <a href="#presentacion">Sobre mi</a></li>
+                <li><a href="#comidasFavoritas">Comidas Favoritas</a></li>
+                <li><a href="#algoritmos-de-interes">Algoritmos que me Interesan</a></li>
+                <li><a href="#lista-de-hobbies">Mis Hobbies</a></li>
+                <li><a href="#mis-redes">Mis Redes</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="presentacion">
+            <h2>Presentacion</h2>
+            <p>Hola mi nombre es Josue y en esta pagina veras un poco de mi y lo que me gusta hacer</p>
+        </section>
+        <hr>
+
+        <!-- Sección de comidas favoritas -->
+        <section id="comidasFavoritas">
+            <h2>Comidas Favoritas</h2>
+            <ul>
+                <li>Papa Rellena</li>
+                <li>Aji de Gallina</li>
+                <li>Arroz Chaufa</li>
+                <li>Pizza</li>
+                <li>Milanesa de Pollo</li>
+            </ul>
+        </section>
+        <hr>
+        <!-- Sección del algoritmo de Boruvka -->
+
+        <section id="algoritmos-de-interes">
+            <h2>Algoritmos Interesantes</h2>
+            <p>Te muestro algoritmos interesantes que utilice en el primer semestre</p>
+            
+            <ul>
+                <li>
+                    <div id="algoritmo-de-boruvka">
+
+                        <h3>Algoritmo de Boruvka</h3>
+                        <p>Algoritmo para encontrar un Arbol de expansion Minima</p>
+
+                        <ol>
+                            <li>Tomar cada punto del grafo como un subgrafo independiente</li>
+                            <li>Agarrar cualquier punto</li>
+                            <li>Del punto seleccionado ver que arista que llega a el tiene el menor peso posible</li>
+                            <li>Repetir para los demas puntos</li>
+                            <li>Volver a repetir el proceso con los subgrafos obtenido despues de la primera iteracion</li>
+                            <li>Iterar hasta que todos los puntos esten conectados</li>
+                        </ol>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div id="algoritmo-de-busqueda-secuencial">
+                        <h3>Algoritmo de Busqueda secuencial</h3>
+                        <p>Este algoritmo me sirvio mucho para aprender en el primer semestre de mi carrera</p>
+
+                        <ol>
+                            <li>Iniciar índice en 0</li>
+
+                            <li>Repetir mientras índice < tamaño del arreglo</li>
+
+                            <li>Si elemento en índice = valor buscado
+                                <ol>
+                                    <li>Mostrar "Encontrado"</li>
+                                    <li>Terminar Algoritmo</li>
+                                </ol>
+                            </li>
+
+                            <li>Aumentar indice en 1</li>
+
+                            <li>Si termina bucle sin encontrar
+                                <ol>
+                                    <li>Mostrar "No Encontrado"</li>
+                                </ol>
+                            </li>
+
+                        </ol>
+                    </div>
+
+                </li>
+            </ul>
+
+            <!-- Sección del algoritmo de búsqueda secuencial -->
+            <li></li>
+        </section>
+        <hr>
+
+        <!-- Sección de lista de hobbies y requisitos -->
+        <section id="lista-de-hobbies">
+            <h2>Lista de Hobbies</h2>
+            <p>Estos son mis hobbies y que necesito para llevarlos a cabo</p>
+            <ul>
+                <li>Tocar Guitarra
+                    <ul>
+                        <li>Tener tiempo</li>
+                        <li>Estar en casa</li>
+                        <li>Conseguir una guitarra</li>
+                        <li>Pua</li>
+                    </ul>
+                </li>
+
+                <li>Ir al Gimnasio
+                    <ul>
+                        <li>Tener tiempo</li>
+                        <li>Ropa deportiva</li>
+                        <li>Zapatillas</li>
+                        <li>Agua</li>
+                    </ul>
+                </li>
+
+                <li>Escribir Codigo
+                    <ul>
+                        <li>Computadora o Laptop</li>
+                        <li>Editor de Codigo</li>
+                        <li>Tiempo</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="mis-redes">
+
+            <h2>Mis redes</h3>
+
+            <ul>
+                <li><a href=""></a><img src="" alt=""></li>
+            </ul>
+
+        </section>
+        <hr>
+    </main>
+    <!-- Fin del cuerpo del documento -->
+</body>
+</html>
